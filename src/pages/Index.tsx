@@ -7,12 +7,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 const Index = () => {
   const loanTypes = [
-    { name: 'Home Loan', description: 'Fulfill your dream of owning a home', icon: '🏠' },
-    { name: 'Personal Loan', description: 'For all your personal financial needs', icon: '💰' },
-    { name: 'Car Loan', description: 'Drive your dream car today', icon: '🚗' },
-    { name: 'Business Loan', description: 'Grow your business with our support', icon: '🏢' },
-    { name: 'Loan Against Property', description: 'Unlock the value of your property', icon: '🏘️' },
-    { name: 'Others', description: 'Customized loan solutions for you', icon: '📋' }
+    { name: <a herf="CustomerPortal.tsx">'Home Loan'</a>, description: 'Fulfill your dream of owning a home', icon: '🏠' },
+    { name: <a herf="CustomerPortal.tsx">'Personal Loan'</a>, description: 'For all your personal financial needs', icon: '💰' },
+    { name: <a herf="CustomerPortal.tsx">'Car Loan'</a>, description: 'Drive your dream car today', icon: '🚗' },
+    { name: <a herf="CustomerPortal.tsx">'Business Loan' </a>, description: 'Grow your business with our support', icon: '🏢' },
+    { name: <a herf="CustomerPortal.tsx">'Loan Against Property' </a>, description: 'Unlock the value of your property', icon: '🏘️' },
+    { name: <a herf="CustomerPortal.tsx">'Others' </a>, description: 'Customized loan solutions for you', icon: '📋' }
   ];
 
   return (

@@ -27,7 +27,7 @@ const Index = () => {
             </div>
             <div className="flex items-center space-x-4">
               <Phone className="h-5 w-5 text-blue-600" />
-              <span className="text-gray-700">+91-XXXXXXXXXX</span>
+              <span className="text-gray-700">+91-7397834578</span>
             </div>
           </div>
         </div>
@@ -200,11 +200,11 @@ const Index = () => {
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2" />
-                  <span>info@sixsigmaservices.com</span>
+                  <span>sixsigmaservices01@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-4 w-4 mr-2" />
-                  <span>Mumbai, Maharashtra, India</span>
+                  <span>Nagpur, Maharashtra, India</span>
                 </div>
               </div>
             </div>
